@@ -1,0 +1,76 @@
+/* Header */
+
+@mixin decoracion {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  border-bottom: 1px solid black;
+  text-align: center;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; 
+  nav {
+    nav-link {
+        color: black;
+        &:hover {
+            color: $color-rojo;
+            text-decoration: underline;
+        }
+
+    }
+    ul {
+        display: flex;
+        flex-direction: row;
+        li {
+            list-style: none;
+            display: inline-block;
+            margin: 0px 10px;
+            a {
+                @include decoracion;
+                font-weight: normal;
+                font-family: "DM Sans", sans-serif;
+                &:hover {
+                    color: $color-rojo;
+                    text-decoration: underline;
+                }
+
+            }
+        }
+    }
+    btn { color: black;
+        &:hover {
+            background-color: whitesmoke;
+            color: black;
+            border-color: $color-rojo;
+        }
+
+    }
+  }
+
+}
+
+.bg-body-tertiary {
+  background-color: white; }
+
+.nav-link {
+  color: black; }
+
+  .nav-link:hover {
+    color: $color-rojo;
+    text-decoration: underline; }
+
+.btn-outline-success {
+  border-color: $color-rojo; }
+
+.logo {
+  width: 250px; }
+
+button a {
+  text-decoration: none;
+  font-weight: normal;
+  color: white;
+  font-family: "DM Sans", sans-serif; }

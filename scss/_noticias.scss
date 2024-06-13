@@ -1,0 +1,18 @@
+/* Noticias */
+
+@mixin estructura {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.contenedorNoticias {
+    @include estructura;
+    .articleNoticias {
+        background: #e39968;
+        height: auto;
+        margin: 10px;
+        border-radius: 5px;
+    }
+  }
+  

@@ -1,0 +1,50 @@
+/* Recursos */
+
+.contenedorRecursosArt {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 0px 20px 20px 20px;
+  }
+  
+  .contenedorTexto {
+    padding: 20px 20px 0px 20px;
+  }
+  
+  .ArtRecursos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+  
+    button {
+      background-color: $color-rojo;
+      color: #fff;
+      border-radius: 20px;
+      padding: 10px 20px;
+      font-size: 1rem;
+      cursor: pointer;
+      margin-top: 10px;
+  
+      &:hover {
+        background-color: #d24242;
+      }
+    }
+  }
+  
+  .contenedorRecursos p {
+    background-color: #E39968;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+  }

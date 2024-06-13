@@ -1,0 +1,34 @@
+/* Index */
+
+.contenedorHomeParte1 {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    .imgHome {
+        display: block;
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+        box-shadow: 10px 10px 10px;
+
+    }
+}
+
+.contenedorHomeParte2 {
+    background-color: #E39968ed;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 17%;
+    height: 565px;
+    padding: 20px;
+    
+
+}
+
+.contenedorHomeParte3 {
+    background-color: whitesmoke;
+    height: 500px;
+    width: 100%;
+}
